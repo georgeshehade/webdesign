@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>VC</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Raleway:wght@100;200;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo4.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <!-- add close tab -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">OUR SERVICE</a></li>
+                        <li><a href="">EXPLORE</a></li>
+                        <li><a href="">RESULT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="nav-links-signin" id="navLinksSignin">
+                    <!-- <i class="fa fa-times"></i> -->
+                    <ul>
+                        <li><a href="">REGISTER</a></li>
+                        <li><a href="">LOG IN</a></li>
+                    </ul>
+                </div>
+            <!-- add menu bar -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+        <div class="text-box">
+            <h1>Value Connection</h1>
+            <p>Value connection is a program which helps to bring companies who share the same values together.
+                <br>A place where you can find other companies who share the same value as you do.</p>
+            <a href="" class="vc-btn">Visit Us To Know More</a>
+        </div>
+            
+        </section>
+
+        <!-- ---- Our Service ---- -->
+
+        <section class="service">
+            <h1>OUR SERVICE</h1>
+            <p> how to find your potential employer(we need to modify the text) </p>
+            <div class="row">
+                <div class="service-col">
+                    <!-- <div class="card"> -->
+                    <img src="images/corevalues.png">
+                        <h3>Values</h3>
+                            <p>Core values are the fundamental beliefs of a person or organization.
+                                It also help companies to determine they are on the right
+                                path and fulfilling their goals by creating an unwavering guide. </p>
+                </div>
+                
+                <div class="service-col">
+                    <img src="images/clustervalues.png">
+                        <h3>Matching Values</h3>
+                            <p>A place where you can find other companies who share
+                            the same value as you do, doesn't that sound nice!</p>
+
+                </div>
+                
+                <div class="service-col">
+                    <img src="images/joinus.png">
+                    <h3> Some title</h3>
+                         <p> some text........</p>
+
+                </div>
+            </div>
+
+
+        </section>
+        <!-------our team------>
+
+        <section class="team">
+            <h1>Our Team</h1>
+            <p>Our Data Professionals</p>
+
+            <div class="row">
+                <div class="team-col">
+                    <img src="images/jasper.png">
+                        <div class="layer">
+                            <h3>JASPER</h3>
+                        </div> 
+                </div>
+                <div class="team-col">
+                    <img src="images/kristle.png">
+                        <div class="layer">
+                            <h3>KRISTLE</h3>
+                        </div> 
+                </div>
+                <div class="team-col">
+                    <img src="images/george.jpg">
+                        <div class="layer">
+                            <h3>GEORGE</h3>
+                        </div> 
+                </div>
+                <div class="team-col">
+                    <img src="images/sabreen.jpg">
+                        <div class="layer">
+                            <h3>SABREEN</h3>
+                        </div> 
+                </div>
+            </div>
+        </section>
+        <!-- ----Java Script for menu bar----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+    </body>
+
+</html>
