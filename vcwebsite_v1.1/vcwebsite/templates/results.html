@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for row in data %}
+        <p>name={{row[0]}}::::cluster_no={{row[1]}}</p>
+
+    {% endfor %}
+{% endblock content %}

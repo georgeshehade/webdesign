@@ -1,0 +1,3 @@
+- fix eucl dist in get cluster no in ClusterHandler
+- finish update_user_clusters in datahandler.py 
+- clean code and structure it nicely

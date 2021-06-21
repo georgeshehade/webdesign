@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+    <form method="POST" action="{{ url_for('admin') }}">
+        <fieldset class="form-group">
+            <p>backup db</p>
+            {{ form.backup_db }}
+            <p>create db</p>
+            {{ form.create_db }}
+            <p>remove db</p>
+            {{ form.remove_db }}
+            <p>drop db</p>
+            {{ form.drop_db }}
+            <p>train_cluster_model</p>
+            {{ form.train_cluster_model }}
+        </fieldset> 
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info")}}
+        </div>
+    </form>
+{% endblock content %}
