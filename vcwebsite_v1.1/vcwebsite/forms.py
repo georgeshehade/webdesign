@@ -75,7 +75,7 @@ class UpdateAccountForm(FlaskForm):
 class ValuesForm(FlaskForm):
     """Form for 3 string values checks if in list of /data/wordlist.txt"""
     if sys.platform.startswith('win'):
-        with open('Value-Connection/source/vcwebsite_v1.1/vcwebsite/data/wordlist.txt', 'r') as wordlist:
+        with open(os.getcwd() +"\\vcwebsite_v1.1\\vcwebsite\\data\\wordlist.txt", 'r') as wordlist:
             values = wordlist.read().splitlines()
     else:
         with open(os.getcwd() + '/vcwebsite/data/wordlist.txt', 'r') as wordlist:
