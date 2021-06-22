@@ -273,5 +273,65 @@ h3{
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
-
+    font-size: 70px;
 }
+.co-us h1{
+    color: rgb(241, 240, 234);
+    margin: bottom 40px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+.co-us p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media(max-width: 700px){
+    .co-us h1{
+        font-size: 24px;
+    }
+/* ----footer---- */
+}
+.footer{
+    width: 100%;
+    text-align: left;
+    padding: 30px 0;
+}
+.privacy{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(18, 21, 34, 0.582);
+}
+/* .privacy-btn{
+    color: rgba(255, 255, 255, 0.034);
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+} */
+.privacy-btn:hover{
+    border: 1px solid rgb(129, 154, 201);
+    transition: 0.5s;
+}
+.co-us h5{
+    color: #fff;
+    margin: bottom 40px;
+    padding: 0;
+}
+.adres{
+    color: #fff;
+    margin: bottom 40px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* -----------------------------------------EXPLORE PAGE--------------------------------------- */
+
+
