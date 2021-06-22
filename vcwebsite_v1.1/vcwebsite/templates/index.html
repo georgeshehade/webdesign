@@ -1,9 +1,11 @@
+{% extends "layout1.html" %}
+{% block content %}
 <!DOCTYPE html>
 <html>
     <head>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <title>VC</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="static/styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Raleway:wght@100;200;300;400;600;700&display=swap" >
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
@@ -11,7 +13,7 @@
     <body>
         <section class="header">
             <nav>
-                <a href="index.html"><img src="images/logo4.png"></a>
+                <a href="index.html"><img src="static/images/logo4.png"></a>
                 <div class="nav-links" id="navLinks">
                     <!-- add close tab -->
                     <i class="fa fa-times" onclick="hideMenu()"></i>
@@ -51,7 +53,7 @@
             <div class="row">
                 <div class="service-col">
                     <!-- <div class="card"> -->
-                    <img src="images/corevalues.png">
+                    <img src="static/images/corevalues.png">
                         <h3>Values</h3>
                             <p>Core values are the fundamental beliefs of a person or organization.
                                 It also help companies to determine they are on the right
@@ -59,7 +61,7 @@
                 </div>
                 
                 <div class="service-col">
-                    <img src="images/clustervalues.png">
+                    <img src="static/images/clustervalues.png">
                         <h3>Matching Values</h3>
                             <p>A place where you can find other companies who share
                             the same value as you do, doesn't that sound nice!</p>
@@ -67,7 +69,7 @@
                 </div>
                 
                 <div class="service-col">
-                    <img src="images/joinus.png">
+                    <img src="static/images/joinus.png">
                     <h3> Some title</h3>
                          <p> some text........</p>
 
@@ -84,25 +86,25 @@
 
             <div class="row">
                 <div class="team-col">
-                    <img src="images/jasper.png">
+                    <img src="static/images/jasper.png">
                         <div class="layer">
                             <h3>JASPER</h3>
                         </div> 
                 </div>
                 <div class="team-col">
-                    <img src="images/kristle.png">
+                    <img src="static/images/kristle.png">
                         <div class="layer">
                             <h3>KRISTLE</h3>
                         </div> 
                 </div>
                 <div class="team-col">
-                    <img src="images/george.jpg">
+                    <img src="static/images/george.jpg">
                         <div class="layer">
                             <h3>GEORGE</h3>
                         </div> 
                 </div>
                 <div class="team-col">
-                    <img src="images/sabreen.jpg">
+                    <img src="static/images/sabreen.jpg">
                         <div class="layer">
                             <h3>SABREEN</h3>
                         </div> 
@@ -122,3 +124,4 @@
     </body>
 
 </html>
+{% endblock content %}

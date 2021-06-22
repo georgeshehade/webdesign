@@ -3,8 +3,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <!-------our team------>
+
+    <section class="team">
+      <h1>Our Team</h1>
+      <p>Our Data Professionals</p>
+
+      <div class="row">
+          <div class="team-col">
+              <img src="static/images/jasper.png">
+                  <div class="layer">
+                      <h3>JASPER</h3>
+                  </div> 
+          </div>
+          <div class="team-col">
+              <img src="static/images/kristle.png">
+                  <div class="layer">
+                      <h3>KRISTLE</h3>
+                  </div> 
+          </div>
+          <div class="team-col">
+              <img src="static/images/george.jpg">
+                  <div class="layer">
+                      <h3>GEORGE</h3>
+                  </div> 
+          </div>
+          <div class="team-col">
+              <img src="static/images/sabreen.jpg">
+                  <div class="layer">
+                      <h3>SABREEN</h3>
+                  </div> 
+          </div>
+      </div>
+  </section>
+
+  <!-- <div class="about-section">
+    <h1 style="color:#f0f3f5;"> Our Team</h1>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="{{url_for('static', filename='images/kristle.png')}}" alt="" style="width:100%">
+      <div class="container">
+        <h2>Kristle</h2>
+        <p class="title">Data Professional/ Product Developer</p>
+        <p>kristle@skillsuplab.nl</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <img src="{{url_for('static', filename='images/jasper.png')}}" alt = "" style= "width:100%" />
+      <div class="container">
+        <h2>Jasper</h2>
+        <p class="title">Data Engineer/ Product Developer</p>
+        <p>jasper@skillsuplab.nl</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="{{url_for('static', filename='images/george.jpg')}}" alt="" style="width:100%">
+      <div class="container">
+        <h2>George</h2>
+        <p class="title">Data Professional/ Product Developer</p>
+        <p>george@skillsuplab.nl</p>
+         <a href="https://www.linkedin.com/in/georgeshehade/" class="social-icon si-rounded si-small si-linkedin">
+          <i class="icon-linkedin"></i>
+          <i class="icon-linkedin"></i>
+       </a> -->
+        <!-- <a href="https://www.linkedin.com/in/georgeshehade/" class="button">LinkedIn</a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="{{url_for('static', filename='images/sabreen.jpg')}}" alt="" style="width:100%">
+      <div class="container">
+        <h2>Sabreen</h2>
+        <p class="title">Data Professional/ Product Developer</p>
+        <p>sabreen@skillsuplab.nl</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-5">
+      <h3 style="color:#1595eb;">Company</h3>
+      <p style=" font-size: 20px;">Skills Up Lab</p>
+      <p style="color:#c2d1da;"> <span class="glyphicon glyphicon-map-marker"> </span> Address:
+      </p><p> Eendrachtsplein 3, 3015 LA </p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Rotterdam , The Netherlands</p>
+      <p style="color:#c2d1da ;"> <span class="glyphicon glyphicon-map-marker"> </span> Phone:
+      </p>
+      <p><span class="glyphicon glyphicon-phone"></span>+31 (0) 618677291</p>
+      <p style="color:#c2d1da;"> <span class="glyphicon glyphicon-map-marker"> </span> E-mail:
+      </p>
+      <p><span class="glyphicon glyphicon-envelope"></span>info@skillsuplab.nl</p>
+    </div>
+  </div>
+</div> -->
+<div class="border-top pt-3">
+  <small class="text-muted">
+    Our Privacy Policy<a class="ml-2" href="{{url_for ('privacy')}}">Privacy Policy</a>
+  </small>
+</div>
+{% endblock content %}
+<!-- <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -73,87 +190,4 @@ html {
     display: block;
   }
 }
-</style>
-</head>
-<body>
-
-  <div class="about-section">
-    <h1 style="color:#f0f3f5;"> Our Team</h1>
-  </div>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="{{url_for('static', filename='images/kristle.png')}}" alt="" style="width:100%">
-      <div class="container">
-        <h2>Kristle</h2>
-        <p class="title">Data Professional/ Product Developer</p>
-        <p>kristle@skillsuplab.nl</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-        <img src="{{url_for('static', filename='images/jasper.png')}}" alt = "" style= "width:100%" />
-      <div class="container">
-        <h2>Jasper</h2>
-        <p class="title">Data Engineer/ Product Developer</p>
-        <p>jasper@skillsuplab.nl</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="{{url_for('static', filename='images/george.jpg')}}" alt="" style="width:100%">
-      <div class="container">
-        <h2>George</h2>
-        <p class="title">Data Professional/ Product Developer</p>
-        <p>george@skillsuplab.nl</p>
-        <!-- <a href="https://www.linkedin.com/in/georgeshehade/" class="social-icon si-rounded si-small si-linkedin">
-          <i class="icon-linkedin"></i>
-          <i class="icon-linkedin"></i>
-       </a> -->
-        <a href="https://www.linkedin.com/in/georgeshehade/" class="button">LinkedIn</a>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="{{url_for('static', filename='images/sabreen.jpg')}}" alt="" style="width:100%">
-      <div class="container">
-        <h2>Sabreen</h2>
-        <p class="title">Data Professional/ Product Developer</p>
-        <p>sabreen@skillsuplab.nl</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-5">
-      <h3 style="color:#1595eb;">Company</h3>
-      <p style=" font-size: 20px;">Skills Up Lab</p>
-      <p style="color:#c2d1da;"> <span class="glyphicon glyphicon-map-marker"> </span> Address:
-      </p><p> Eendrachtsplein 3, 3015 LA </p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Rotterdam , The Netherlands</p>
-      <p style="color:#c2d1da ;"> <span class="glyphicon glyphicon-map-marker"> </span> Phone:
-      </p>
-      <p><span class="glyphicon glyphicon-phone"></span>+31 (0) 618677291</p>
-      <p style="color:#c2d1da;"> <span class="glyphicon glyphicon-map-marker"> </span> E-mail:
-      </p>
-      <p><span class="glyphicon glyphicon-envelope"></span>info@skillsuplab.nl</p>
-    </div>
-  </div>
-</div>
-<div class="border-top pt-3">
-  <small class="text-muted">
-    Our Privacy Policy<a class="ml-2" href="{{url_for ('privacy')}}">Privacy Policy</a>
-  </small>
-</div>
-{% endblock content %}
+</style> -->

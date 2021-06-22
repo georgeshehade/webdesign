@@ -1,10 +1,104 @@
-{% extends "layout1.html" %}
+<!-- {% extends "layout1.html" %} -->
 {% block content %}
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  </head>
+<body>
+  
+  <section class="service">
+    <h1>OUR SERVICE</h1>
+    <p> how to find your potential employer(we need to modify the text) </p>
+    <div class="row">
+        <div class="service-col">
+            <!-- <div class="card"> -->
+            <img src="static/images/corevalues.png">
+                <h3>Values</h3>
+                    <p>Core values are the fundamental beliefs of a person or organization.
+                        It also help companies to determine they are on the right
+                        path and fulfilling their goals by creating an unwavering guide. </p>
+        </div>
+        
+        <div class="service-col">
+            <img src="static/images/clustervalues.png">
+                <h3>Matching Values</h3>
+                    <p>A place where you can find other companies who share
+                    the same value as you do, doesn't that sound nice!</p>
+
+        </div>
+        
+        <div class="service-col">
+            <img src="static/images/joinus.png">
+            <h3> Some title</h3>
+                 <p> some text........</p>
+
+        </div>
+    </div>
+
+
+</section>
+
+<!-- <div class="about-section">
+  <h1>WHO WE ARE !</h1>
+  <p>We are Value-Connection
+              Value connection is a program which helps to bring companies who share the same values together. </p>
+
+</div>
+
+<h2>Our Service</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="{{url_for('static', filename='images/clustervalues.png')}}" alt="Value Matching" style="width:75%">
+      <div class="container">
+        <h2>Matching Values</h2>
+        <p>A place where you can find other companies who share the same value as you do, doesn't that sound nice!</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <img src="{{url_for('static', filename='images/corevalues.png')}}" alt = "Core Values" style= "width:100%" />
+      
+      <div class="container">
+        <h2>Values</h2>
+       
+        <p>Core values are the fundamental beliefs of a person or organization.It also help companies to determine if they are on the right path and fulfilling their goals by creating an unwavering guide. </p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="{{url_for('static', filename='images/Join-us.png')}}" alt="Join us" style="width:100%">
+      <div class="container">
+        <h2>Join now</h2>
+        <p>Join us and reach your goal in a simple steps.
+          <small class="text-muted">
+            <a class="ml-2" href="">Learn more</a>
+          </small>
+        </p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+</body>
+<div class="border-top pt-3">
+    <small class="text-muted">
+      Our Privacy Policy<a class="ml-2" href="{{url_for ('privacy')}}">Privacy Policy</a>
+    </small>
+</div>
+</html>
+{% endblock content %}
+<!-- <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -73,64 +167,5 @@ html {
     display: block;
   }
 }
-</style>
-</head>
-<body>
-
-<div class="about-section">
-  <h1>WHO WE ARE !</h1>
-  <p>We are Value-Connection
-              Value connection is a program which helps to bring companies who share the same values together. </p>
-
-</div>
-
-<h2 style="text-align:center">Our Service</h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="{{url_for('static', filename='images/clustervalues.png')}}" alt="Value Matching" style="width:75%">
-      <div class="container">
-        <h2>Matching Values</h2>
-        <p>A place where you can find other companies who share the same value as you do, doesn't that sound nice!</p>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-        <img src="{{url_for('static', filename='images/corevalues.png')}}" alt = "Core Values" style= "width:100%" />
-      
-      <div class="container">
-        <h2>Values</h2>
-       
-        <p>Core values are the fundamental beliefs of a person or organization.It also help companies to determine if they are on the right path and fulfilling their goals by creating an unwavering guide. </p>
-        
-      </div>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="{{url_for('static', filename='images/Join-us.png')}}" alt="Join us" style="width:100%">
-      <div class="container">
-        <h2>Join now</h2>
-        <p>Join us and reach your goal in a simple steps.
-          <small class="text-muted">
-            <a class="ml-2" href="">Learn more</a>
-          </small>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-</body>
-<div class="border-top pt-3">
-    <small class="text-muted">
-      Our Privacy Policy<a class="ml-2" href="{{url_for ('privacy')}}">Privacy Policy</a>
-    </small>
-</div>
-</html>
-{% endblock content %}
+</style> -->
 

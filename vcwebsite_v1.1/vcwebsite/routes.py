@@ -11,7 +11,11 @@ from flask_login import login_user, current_user, logout_user, login_required
 from vcwebsite.clustering.clusterhandler import ClusterHandler
 
 @app.route("/")
-def index():
+def layout():
+    return render_template("index.html")
+
+@app.route("/index")
+def home():
     return render_template("index.html")
 
 @app.route("/admin", methods=['GET', 'POST'])
