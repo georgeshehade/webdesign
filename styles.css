@@ -8,7 +8,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(6, 8, 19, 0.26),rgba(6, 8, 19, 0.26)),url(images/web_background3.png)
+    background-image: linear-gradient(rgba(49, 52, 70, 0.651),rgba(49, 52, 70, 0.692)),url(images/diversity.png)
     ;
     background-position: center;
     background-size: cover;
@@ -266,8 +266,8 @@ h3{
 .co-us{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(25, 119, 143, 0.418),rgba(25, 119, 143, 0.418)), 
-    url(images/contact.png);
+    background-image: linear-gradient(rgba(144, 166, 172, 0.342),rgba(144, 184, 194, 0.377)),url(images/contact.png)
+    ;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -334,4 +334,151 @@ h3{
 
 /* -----------------------------------------EXPLORE PAGE--------------------------------------- */
 
+.explore-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(104, 115, 175, 0.651),rgba(94, 103, 148, 0.637)),url(images/web_background3.png)
+    ;
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
 
+}
+.explore-values{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(148, 174, 180, 0.685),rgba(132, 169, 179, 0.719)), 
+    url(images/diversity.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align:center;
+    padding: 100px 0;
+    font-size: 70px;
+}
+.explore-values h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.explore-values p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.col-md-8{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.text-box p{
+    font-size: 15px;
+    padding: auto;
+    margin-top: 10px;
+}
+/* .content-section{
+    margin: 100px auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(25, 119, 143, 0.199),rgba(25, 119, 143, 0.418)), 
+    url(images/contact.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align:center;
+    padding: 100px 0;
+    font-size: 70px;
+    
+} */
+.border-bottom-mb-4 {
+    color: rgba(220, 226, 231, 0.637);
+    margin: bottom 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+.form-control-label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: arial;
+    font-size: 25px;
+    color: cornsilk;
+    text-align: left;
+}
+.border-top-pt-3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    /* font-style: italic; */
+    font-size: 15px;
+    color: rgb(243, 232, 197);
+    text-align: left;
+}
+.ml-2{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.ml-2:hover{
+    border: 1px solid rgb(129, 154, 201);
+    background: transparent;
+    transition: 1s;
+}
+.btn-submit{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn-submit:hover{
+    border: 1px solid rgb(129, 154, 201);
+    background : rgb(90, 144, 160);
+    transition: 1s;
+}
+input{
+    border-radius: 8px;
+    width: 30%;
+    height: 40px;
+    border: 2px solid rgba(80, 132, 148, 0.459);
+
+}
+input:focus {
+    background-color: rgb(234, 241, 243);
+    border: 2px solid rgba(80, 132, 148, 0.459);
+    border-radius: 4px;
+    width: 30%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    resize: none;
+  }
+  .value-col{
+    width: 80%;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 100px;
+    flex-basis: 7%;
+    background: rgba(25, 119, 143, 0.418);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 7px 3px;
+    box-sizing: border-box;
+  }
+  .value-col p{
+      font-size: 20px;
+  }
