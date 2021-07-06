@@ -451,7 +451,7 @@ h3{
 }
 input{
     border-radius: 8px;
-    width: 30%;
+    width: 35%;
     height: 40px;
     border: 2px solid rgba(80, 132, 148, 0.459);
 
@@ -459,8 +459,8 @@ input{
 input:focus {
     background-color: rgb(234, 241, 243);
     border: 2px solid rgba(80, 132, 148, 0.459);
-    border-radius: 4px;
-    width: 30%;
+    border-radius: 8px;
+    width: 35%;
     padding: 8px 12px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -472,13 +472,32 @@ input:focus {
     margin-top: 5%;
     text-align: center;
     padding-top: 100px;
-    flex-basis: 7%;
+    flex-basis: 10%;
     background: rgba(25, 119, 143, 0.418);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 7px 3px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   .value-col p{
       font-size: 20px;
+  }
+  .footer{
+      width: 100%;
+      padding: 30px 0;
+      text-align: center;
+  }
+  .footer p{
+      font-size: 20px;
+  }
+  .icons .fa{
+      color: rgba(64, 115, 173, 0.849);
+      margin: 0 15px;
+      cursor: pointer;
+      padding: 18px 0;
+      font-size: 25px;
+      
+  }
+  .fa-heart-o{
+      color:rgba(64, 115, 173, 0.849) ;
   }
