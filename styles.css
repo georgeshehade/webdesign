@@ -346,7 +346,7 @@ h3{
 }
 .explore-values{
     margin: 100px auto;
-    width: 80%;
+    width: 100%;
     background-image: linear-gradient(rgba(148, 174, 180, 0.685),rgba(132, 169, 179, 0.719)), 
     url(images/diversity.png);
     background-position: center;
@@ -355,22 +355,37 @@ h3{
     text-align:center;
     padding: 100px 0;
     font-size: 70px;
+    flex-basis: 10%;
+    /* background: rgba(25, 119, 143, 0.418); */
+    border-radius: 70px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+
+}
+.explore-values img{
+    width: 175px;
+    height: 200px;
+    display: block;
+    border-radius: 70px;
+    background-color: transparent;
 }
 .explore-values h1{
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(70, 77, 76);
 }
 
 .explore-values p{
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
 }
 .col-md-8{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -395,7 +410,7 @@ h3{
     
 } */
 .border-bottom-mb-4 {
-    color: rgba(220, 226, 231, 0.637);
+    color: rgba(60, 63, 65, 0.822);
     margin: bottom 15px;
     padding: 0;
     font-size: 36px;
@@ -439,7 +454,7 @@ h3{
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 25px;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -482,7 +497,7 @@ input:focus {
     text-align: center;
     padding-top: 100px;
     flex-basis: 10%;
-    background: rgba(25, 119, 143, 0.418);
+    /* background: rgba(25, 119, 143, 0.418); */
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 7px 3px;
